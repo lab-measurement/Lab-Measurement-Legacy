@@ -55,22 +55,4 @@ API; its documentation can be found on the Lab::Measurement homepage.
 
 =back
 
-=head1 COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2023 by the Lab::Measurement team; in detail:
-
-  Copyright 2005-2006  Daniel Schroeer
-            2011       Andreas K. Huettel
-            2012       Alois Dirnaichner, Andreas K. Huettel, David Kalok, Hermann Kraus
-            2013       Andreas K. Huettel
-            2014       Christian Butschkow
-            2016       Andreas K. Huettel, Simon Reinhardt
-            2017-2018  Andreas K. Huettel
-            2019       Simon Reinhardt
-            2020       Andreas K. Huettel
-
-
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
-
 =cut
