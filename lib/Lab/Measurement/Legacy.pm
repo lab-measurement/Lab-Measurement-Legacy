@@ -1,6 +1,6 @@
-package Lab::Measurement;
-$Lab::Measurement::VERSION = '3.881';
-#ABSTRACT: Log, describe and plot data on the fly
+package Lab::Measurement::Legacy;
+$Lab::Measurement::Legacy::VERSION = '3.881';
+#ABSTRACT: Log, describe and plot data on the fly (legacy code)
 
 use v5.20;
 
@@ -14,7 +14,7 @@ use Lab::XPRESS::hub qw(DataFile Sweep Frame Instrument Connection);
 our @EXPORT = qw(DataFile Sweep Frame Instrument Connection);
 
 carp <<"EOF";
-\"use Lab::Measurement;\" imports the legacy interface of Lab::Measurement.
+\"use Lab::Measurement::Legacy;\" imports the legacy interface of Lab::Measurement.
 Please consider porting your measurement scripts to the new, Moose-based code.
 Documentation can be found at https://www.labmeasurement.de/
 EOF
@@ -28,7 +28,7 @@ __END__
 
 =head1 NAME
 
-Lab::Measurement - Log, describe and plot data on the fly
+Lab::Measurement::Legacy - Log, describe and plot data on the fly (legacy code)
 
 =head1 VERSION
 
@@ -36,7 +36,7 @@ version 3.881
 
 =head1 SYNOPSIS
 
-  use Lab::Measurement;
+  use Lab::Measurement::Legacy;
 
 However, by now you probably want to use the following instead:
 
@@ -44,16 +44,8 @@ However, by now you probably want to use the following instead:
 
 =head1 DESCRIPTION
 
-The Lab::Measurement module distribution simplifies the task of running a
-measurement, writing the data to disk and keeping track of necessary meta
-information that usually later you don't find in your lab book anymore.
-
-If your measurements don't come out nice, it's not because you were using the 
-wrong software. 
-
-The actual Lab::Measurement module belongs to the deprecated legacy module
-stack. We are in the process of re-writing the entire code base using Modern
-Perl techniques and the Moose object system. Please port your code to the new
+The Lab::Measurement::Legacy module belongs to a deprecated legacy module
+stack, frozen and not under development anymore. Please port your code to the new
 API; its documentation can be found on the Lab::Measurement homepage.
 
 =head1 SEE ALSO
