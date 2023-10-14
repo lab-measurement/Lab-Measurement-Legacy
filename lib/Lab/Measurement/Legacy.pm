@@ -1,5 +1,5 @@
 package Lab::Measurement::Legacy;
-$Lab::Measurement::Legacy::VERSION = '3.881';
+$Lab::Measurement::Legacy::VERSION = '3.899';
 #ABSTRACT: Log, describe and plot data on the fly (legacy code)
 
 use v5.20;
@@ -32,7 +32,7 @@ Lab::Measurement::Legacy - Log, describe and plot data on the fly (legacy code)
 
 =head1 VERSION
 
-version 3.881
+version 3.899
 
 =head1 SYNOPSIS
 
