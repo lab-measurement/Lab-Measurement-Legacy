@@ -87,7 +87,7 @@ provide a C<channel> (1..4) parameter in the constructor.
 
 B<To use multiple virtual instruments, which use the same physical device, you have to share the connection between the virtual instruments:>
 
- use Lab::Measurement;
+ use Lab::Measurement::Legacy;
 
  # Create the shared connection.
  my $connection = Connection('LinuxGPIB', {gpib_address => 8});

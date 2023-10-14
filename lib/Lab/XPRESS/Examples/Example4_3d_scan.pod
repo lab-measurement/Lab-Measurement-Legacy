@@ -22,7 +22,7 @@ In this example, the main novelty is the usage of two nested frames to record a 
 
  #-------- 0. Import Lab::Measurement -------
  
- use Lab::Measurement;
+ use Lab::Measurement::Legacy;
  use strict;
  
  #-------- 1. Initialize Instruments --------

@@ -174,7 +174,7 @@ version 3.881
 
 =head1 SYNOPSIS
 
-	use Lab::Measurement;
+	use Lab::Measurement::Legacy;
 	
 	my $time_sweep = Sweep('Time',
 		{

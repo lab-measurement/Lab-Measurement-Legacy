@@ -258,7 +258,7 @@ sub get_value {
 1;
 
 #----------Include features in measurment scripts-----------------------------------------------------------------------------------------------------------------------------------
-# use Lab::Measurement;
+# use Lab::Measurement::Legacy;
 
 # my $lake=Instrument('Lakeshore224');
 

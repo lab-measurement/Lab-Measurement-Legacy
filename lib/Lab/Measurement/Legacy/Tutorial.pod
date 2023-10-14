@@ -306,7 +306,7 @@ multimeter and logs to a DataFile object.
   use strict;
   use 5.010;
   
-  use Lab::Measurement;
+  use Lab::Measurement::Legacy;
   
   
   #-------- 2. Some constants ----------------

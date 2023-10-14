@@ -28,7 +28,7 @@ meaning.
 
  #-------- 0. Import Lab::Measurement -------
  
- use Lab::Measurement;
+ use Lab::Measurement::Legacy;
  
  #-------- 1. Initialize Instruments --------
  
@@ -150,7 +150,7 @@ meaning.
 
 	#-------- 0. Import Lab::Measurement -------
 
-	use Lab::Measurement;
+	use Lab::Measurement::Legacy;
 
 	#-------- 1. Initialize Instruments --------
 

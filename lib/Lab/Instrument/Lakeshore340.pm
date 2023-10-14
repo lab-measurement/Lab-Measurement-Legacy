@@ -956,7 +956,7 @@ version 3.881
 
 =head1 SYNOPSIS
 
- use Lab::Measurement;
+ use Lab::Measurement::Legacy;
  my $lake = Instrument('Lakeshore340', {
      connection_type => ...,
      gpib_address => ...

@@ -36,7 +36,7 @@ simple IV-curve measurement:
 
  #-------- 0. Import Lab::Measurement -------
  
- use Lab::Measurement;
+ use Lab::Measurement::Legacy;
  
  #-------- 1. Initialize Instruments --------
  
@@ -124,7 +124,7 @@ simple IV-curve measurement:
 
 First thing to do in a script: write the following line
 
-	use Lab::Measurement;
+	use Lab::Measurement::Legacy;
 
 This is how you import the Lab::Measurement library. For basic usage, that's typically everything you need. So you're now ready to start...
 
