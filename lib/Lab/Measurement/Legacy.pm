@@ -1,5 +1,6 @@
 package Lab::Measurement::Legacy;
-$Lab::Measurement::Legacy::VERSION = '3.899';
+
+#DistZilla: +PodWeaver
 #ABSTRACT: Log, describe and plot data on the fly (legacy code)
 
 use v5.20;
@@ -25,14 +26,6 @@ __END__
 =pod
 
 =encoding UTF-8
-
-=head1 NAME
-
-Lab::Measurement::Legacy - Log, describe and plot data on the fly (legacy code)
-
-=head1 VERSION
-
-version 3.899
 
 =head1 SYNOPSIS
 
