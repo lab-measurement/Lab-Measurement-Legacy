@@ -10,13 +10,16 @@ __END__
 
 =head1 NAME
 
-Lab::Measurement::Legacy::Tutorial - Old Tutorial on using the historical/deprecated API of the Lab::Measurement package stack
+Lab::Measurement::Legacy::Tutorial - Old Tutorial on using the historical/deprecated API of the Lab::Measurement package stack (deprecated)
 
 =head1 VERSION
 
 version 3.792
 
 =head1 Introduction
+
+This file belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API;
+its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
 
 The Lab::Measurement package stack allows to perform test and measurement
 tasks with Perl scripts. It provides an interface several hardware driver
@@ -313,7 +316,7 @@ multimeter and logs to a DataFile object.
   use strict;
   use 5.010;
   
-  use Lab::Measurement;
+  use Lab::Measurement::Legacy;
   
   
   #-------- 2. Some constants ----------------
