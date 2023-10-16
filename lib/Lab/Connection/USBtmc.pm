@@ -119,6 +119,8 @@ Ways to indicate device:
 
 =head1 DESCRIPTION
 
+This module belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
+
 Lab::Connection::USBtmc provides a GPIB-type connection with the bus
 L<Lab::Bus::USBtmc>, using F</dev/usbtmc*> as backend.
 

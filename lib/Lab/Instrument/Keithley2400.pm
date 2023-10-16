@@ -1774,6 +1774,8 @@ version 3.899
 
 =head1 DESCRIPTION
 
+This module belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
+
 The Lab::Instrument::Keithley2400 class implements an interface to the Keithley 2400 digital multimeter.
 
 =head1 CAVEATS

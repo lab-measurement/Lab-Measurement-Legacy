@@ -183,6 +183,8 @@ version 3.899
 
 =head1 DESCRIPTION
 
+This module belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
+
 Parent: Lab::XPRESS::Sweep
 
 The Lab::XPRESS::Sweep::Time class implements a simple time controlled repeater module in the Lab::XPRESS::Sweep framework.

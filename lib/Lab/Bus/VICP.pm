@@ -695,6 +695,8 @@ or implicit through instrument and connection creation:
 
 =head1 DESCRIPTION
 
+This module belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
+
 Note: you don't need to explicitly handle bus objects. The Instruments will create them themselves, and existing bus will
 be automagically reused.
 

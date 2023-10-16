@@ -804,6 +804,8 @@ version 3.899
 
 =head1 DESCRIPTION
 
+This module belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
+
 The Lab::Instrument::Yokogawa7651 class implements an interface to the
 discontinued voltage and current source 7651 by Yokogawa. This class derives from
 L<Lab::Instrument::Source> and provides all functionality described there.

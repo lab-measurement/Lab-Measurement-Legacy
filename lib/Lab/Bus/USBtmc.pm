@@ -657,6 +657,8 @@ or implicit through instrument and connection creation:
 
 =head1 DESCRIPTION
 
+This module belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
+
 Driver for the interface provided by the usbtmc linux kernel module.
 
 Obviously, this will work for Linux systems only. 

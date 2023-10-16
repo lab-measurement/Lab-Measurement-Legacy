@@ -358,6 +358,8 @@ Every inheriting classes constructors should start as follows:
 
 =head1 DESCRIPTION
 
+This module belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
+
 C<Lab::Connection> is the base class for all connections and implements a generic set of 
 access methods. It doesn't do anything on its own.
 

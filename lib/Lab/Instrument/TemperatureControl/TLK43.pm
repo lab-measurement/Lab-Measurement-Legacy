@@ -491,6 +491,8 @@ version 3.899
 
 =head1 DESCRIPTION
 
+This module belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
+
 The Lab::Instrument::TLK43 class implements an interface to SIKA GmbH's TLK41/42/43 process controllers. The devices
 have to be equipped with the optional RS485 interface. The device can be fully programmed using RS232 and an interface
 converter (e.g. "GRS 485 ISO" RS232 - RS485 Converter).

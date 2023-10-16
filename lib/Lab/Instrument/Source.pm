@@ -569,6 +569,8 @@ version 3.899
 
 =head1 DESCRIPTION
 
+This module belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
+
 This class implements a general voltage source, if necessary with several 
 channels. It is meant to be inherited by instrument classes that implement
 real voltage sources (e.g. the L<Lab::Instrument::Yokogawa7651> class).

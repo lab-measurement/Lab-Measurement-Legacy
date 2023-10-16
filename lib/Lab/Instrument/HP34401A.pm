@@ -470,6 +470,8 @@ version 3.899
 
 =head1 DESCRIPTION
 
+This module belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
+
 The Lab::Instrument::HP34401A class implements an interface to the 34401A digital 
 multimeter by Agilent (formerly HP). This module can also be used to address the newer 
 34410A and 34411A multimeters, but doesn't include new functions. Use the 

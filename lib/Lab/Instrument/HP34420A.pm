@@ -464,6 +464,8 @@ version 3.899
 
 =head1 DESCRIPTION
 
+This module belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
+
 The Lab::Instrument::HP34420A class implements an interface to the 34420A digital 
 multimeter by Agilent (formerly HP). This module is in big parts equal to the 
 34410A and 34411A multimeter drivers.

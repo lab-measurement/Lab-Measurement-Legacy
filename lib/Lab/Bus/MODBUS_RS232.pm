@@ -402,6 +402,8 @@ C<COM1> is the Windows notation, C</dev/ttyUSB1> the Linux equivalent. Use as ne
 
 =head1 DESCRIPTION
 
+This module belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
+
 This is an interface package for Lab::Measurement to communicate via RS232/RS485 with a 
 MODBUS RTU enabled device. It uses Lab::Bus::RS232 (RS485 can be done using a 
 RS232<->RS485 converter for now). It's main use is to calculate the checksums needed by 

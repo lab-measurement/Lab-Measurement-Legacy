@@ -1352,6 +1352,8 @@ into hardware/resource sharing issues.
 
 =head1 DESCRIPTION
 
+This module belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
+
 C<Lab::Instrument> is the base class for Instruments. It doesn't do much by
 itself, but is meant to be inherited in specific instrument drivers. It provides
 general C<read>, C<write> and C<query> methods and basic connection handling
