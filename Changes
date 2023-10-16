@@ -1,5 +1,8 @@
 History for the Lab-Measurement-Legacy Perl distribution
 
+3.902 2023-10-17
+  * More fixes in POD files
+
 3.901 2023-10-14
   * Fix POD documentation
 
