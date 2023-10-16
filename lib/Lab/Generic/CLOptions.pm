@@ -24,7 +24,7 @@ __END__
 
 =head1 NAME
 
-Lab::Generic::CLOptions - Global command line option processing
+Lab::Generic::CLOptions - Global command line option processing (deprecated)
 
 =head1 VERSION
 

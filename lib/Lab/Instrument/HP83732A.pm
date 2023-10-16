@@ -126,7 +126,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::HP83732A - HP 83732A Series Synthesized Signal Generator
+Lab::Instrument::HP83732A - HP 83732A Series Synthesized Signal Generator (deprecated)
 
 =head1 VERSION
 

@@ -115,7 +115,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::DietersCrazyTempSweep - Dieter's crazy temperature sweep
+Lab::XPRESS::Sweep::DietersCrazyTempSweep - Dieter's crazy temperature sweep (deprecated)
 
 =head1 VERSION
 

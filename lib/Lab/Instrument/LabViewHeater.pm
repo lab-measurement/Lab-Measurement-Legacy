@@ -86,7 +86,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::LabViewHeater - ?????
+Lab::Instrument::LabViewHeater - ????? (deprecated)
 
 =head1 VERSION
 

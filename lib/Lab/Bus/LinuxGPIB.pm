@@ -488,7 +488,7 @@ __END__
 
 =head1 NAME
 
-Lab::Bus::LinuxGPIB - LinuxGPIB bus
+Lab::Bus::LinuxGPIB - LinuxGPIB bus (deprecated)
 
 =head1 VERSION
 

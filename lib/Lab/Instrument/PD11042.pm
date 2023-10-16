@@ -768,7 +768,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::PD11042 - Trinamic PD-110-42 low-cost 42mm stepper motor
+Lab::Instrument::PD11042 - Trinamic PD-110-42 low-cost 42mm stepper motor (deprecated)
 
 =head1 VERSION
 

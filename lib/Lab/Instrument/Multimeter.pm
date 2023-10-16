@@ -83,7 +83,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::Multimeter - Generic digital multimeter base class
+Lab::Instrument::Multimeter - Generic digital multimeter base class (deprecated)
 
 =head1 VERSION
 

@@ -303,7 +303,7 @@ __END__
 
 =head1 NAME
 
-Lab::Bus::RS232 - RS232 or Virtual Comm port bus
+Lab::Bus::RS232 - RS232 or Virtual Comm port bus (deprecated)
 
 =head1 VERSION
 

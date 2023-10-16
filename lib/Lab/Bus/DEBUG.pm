@@ -234,7 +234,7 @@ __END__
 
 =head1 NAME
 
-Lab::Bus::DEBUG - Interactive debug bus
+Lab::Bus::DEBUG - Interactive debug bus (deprecated)
 
 =head1 VERSION
 

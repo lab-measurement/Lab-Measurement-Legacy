@@ -162,7 +162,7 @@ __END__
 
 =head1 NAME
 
-Lab::Bus - Bus base class
+Lab::Bus - Bus base class (deprecated)
 
 =head1 VERSION
 

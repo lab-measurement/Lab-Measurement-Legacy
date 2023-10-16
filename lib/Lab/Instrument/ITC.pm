@@ -452,7 +452,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::ITC - Oxford Instruments ITC Intelligent Temperature Control
+Lab::Instrument::ITC - Oxford Instruments ITC Intelligent Temperature Control (deprecated)
 
 =head1 VERSION
 

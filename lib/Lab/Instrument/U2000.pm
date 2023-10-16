@@ -247,7 +247,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::U2000 - Agilent U2000 series USB Power Sensor
+Lab::Instrument::U2000 - Agilent U2000 series USB Power Sensor (deprecated)
 
 =head1 VERSION
 

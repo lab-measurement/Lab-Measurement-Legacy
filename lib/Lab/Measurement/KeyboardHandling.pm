@@ -77,7 +77,7 @@ __END__
 
 =head1 NAME
 
-Lab::Measurement::KeyboardHandling - Minimal keyboard input handling
+Lab::Measurement::KeyboardHandling - Minimal keyboard input handling (deprecated)
 
 =head1 VERSION
 

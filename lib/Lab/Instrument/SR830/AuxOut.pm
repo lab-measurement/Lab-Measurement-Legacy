@@ -121,7 +121,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::SR830::AuxOut - Aux Outputs of the Stanford Research SR830 Lock-In Amplifier
+Lab::Instrument::SR830::AuxOut - Aux Outputs of the Stanford Research SR830 Lock-In Amplifier (deprecated)
 
 =head1 VERSION
 

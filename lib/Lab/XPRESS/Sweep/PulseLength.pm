@@ -90,7 +90,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::PulseLength - Pulse length sweep
+Lab::XPRESS::Sweep::PulseLength - Pulse length sweep (deprecated)
 
 =head1 VERSION
 

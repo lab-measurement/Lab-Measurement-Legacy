@@ -91,7 +91,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::PulsePeriod - Pulse period sweep
+Lab::XPRESS::Sweep::PulsePeriod - Pulse period sweep (deprecated)
 
 =head1 VERSION
 

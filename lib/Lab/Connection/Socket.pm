@@ -56,7 +56,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::Socket - IP socket connection
+Lab::Connection::Socket - IP socket connection (deprecated)
 
 =head1 VERSION
 

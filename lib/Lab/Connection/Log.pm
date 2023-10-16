@@ -86,7 +86,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::Log - Role adding logging capability to connections
+Lab::Connection::Log - Role adding logging capability to connections (deprecated)
 
 =head1 VERSION
 

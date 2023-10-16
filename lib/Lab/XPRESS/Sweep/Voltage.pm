@@ -165,7 +165,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::Voltage - Voltage sweep
+Lab::XPRESS::Sweep::Voltage - Voltage sweep (deprecated)
 
 =head1 VERSION
 

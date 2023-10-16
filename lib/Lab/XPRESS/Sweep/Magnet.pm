@@ -160,7 +160,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::Magnet - Magnetic field sweep
+Lab::XPRESS::Sweep::Magnet - Magnetic field sweep (deprecated)
 
 =head1 VERSION
 

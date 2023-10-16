@@ -1382,7 +1382,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Data::XPRESS_plotter - XPRESS plotting module
+Lab::XPRESS::Data::XPRESS_plotter - XPRESS plotting module (deprecated)
 
 =head1 VERSION
 

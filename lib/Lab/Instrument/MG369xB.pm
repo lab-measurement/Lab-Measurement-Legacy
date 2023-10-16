@@ -180,7 +180,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::MG369xB - Anritsu MG369xB series signal generator
+Lab::Instrument::MG369xB - Anritsu MG369xB series signal generator (deprecated)
 
 =head1 VERSION
 

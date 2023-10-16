@@ -636,7 +636,7 @@ __END__
 
 =head1 NAME
 
-Lab::Bus::USBtmc - USBtmc (Test & Measurement) Linux kernel driver bus
+Lab::Bus::USBtmc - USBtmc (Test & Measurement) Linux kernel driver bus (deprecated)
 
 =head1 VERSION
 

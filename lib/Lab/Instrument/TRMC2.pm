@@ -415,7 +415,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::TRMC2 - ABB TRMC2 temperature controller
+Lab::Instrument::TRMC2 - ABB TRMC2 temperature controller (deprecated)
 
 =head1 VERSION
 

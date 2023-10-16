@@ -29,7 +29,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::VISA_GPIB::Trace - ???
+Lab::Connection::VISA_GPIB::Trace - ??? (deprecated)
 
 =head1 VERSION
 

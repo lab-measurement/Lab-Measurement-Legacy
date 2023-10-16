@@ -1228,7 +1228,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::SignalRecovery726x - Signal Recovery 7260 / 7265 Lock-in Amplifier
+Lab::Instrument::SignalRecovery726x - Signal Recovery 7260 / 7265 Lock-in Amplifier (deprecated)
 
 =head1 VERSION
 

@@ -561,7 +561,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::Source - Generic voltage source base class
+Lab::Instrument::Source - Generic voltage source base class (deprecated)
 
 =head1 VERSION
 

@@ -48,7 +48,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::TemperatureDiode::RO600 - RO600 (????)
+Lab::Instrument::TemperatureDiode::RO600 - RO600 (????) (deprecated)
 
 =head1 VERSION
 

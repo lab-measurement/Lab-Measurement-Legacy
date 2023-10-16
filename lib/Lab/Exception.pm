@@ -173,7 +173,7 @@ __END__
 
 =head1 NAME
 
-Lab::Exception - Exception handling classes
+Lab::Exception - Exception handling classes (deprecated)
 
 =head1 VERSION
 

@@ -477,7 +477,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::AH2700A - Andeen-Hagerling AH2700A ultra-precision capacitance bridge
+Lab::Instrument::AH2700A - Andeen-Hagerling AH2700A ultra-precision capacitance bridge (deprecated)
 
 =head1 VERSION
 

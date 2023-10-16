@@ -976,7 +976,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::Agilent34420A - HP/Agilent/Keysight 34420A or 34421A digital multimeter
+Lab::Instrument::Agilent34420A - HP/Agilent/Keysight 34420A or 34421A digital multimeter (deprecated)
 
 =head1 VERSION
 

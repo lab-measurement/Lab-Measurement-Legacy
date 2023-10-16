@@ -91,7 +91,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::SignalRecoveryPhase - Signal recovery lock in phase sweep
+Lab::XPRESS::Sweep::SignalRecoveryPhase - Signal recovery lock in phase sweep (deprecated)
 
 =head1 VERSION
 

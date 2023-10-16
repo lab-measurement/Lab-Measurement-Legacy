@@ -89,7 +89,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::MODBUS_RS232 - RS232/RS485 MODBUS RTU connection
+Lab::Connection::MODBUS_RS232 - RS232/RS485 MODBUS RTU connection (deprecated)
 
 =head1 VERSION
 

@@ -134,7 +134,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::DummySource - Dummy voltage source
+Lab::Instrument::DummySource - Dummy voltage source (deprecated)
 
 =head1 VERSION
 

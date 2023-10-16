@@ -512,7 +512,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::HP3458A - Agilent 3458A Multimeter
+Lab::Instrument::HP3458A - Agilent 3458A Multimeter (deprecated)
 
 =head1 VERSION
 

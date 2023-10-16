@@ -115,7 +115,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::GPIB - GPIB Connection base class
+Lab::Connection::GPIB - GPIB Connection base class (deprecated)
 
 =head1 VERSION
 

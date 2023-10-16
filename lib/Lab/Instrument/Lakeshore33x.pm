@@ -933,7 +933,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::Lakeshore33x - Lakeshore 33x Temperature controller
+Lab::Instrument::Lakeshore33x - Lakeshore 33x Temperature controller (deprecated)
 
 =head1 VERSION
 

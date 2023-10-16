@@ -166,7 +166,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::Time - Simple time-controlled repeater
+Lab::XPRESS::Sweep::Time - Simple time-controlled repeater (deprecated)
 
 =head1 VERSION
 

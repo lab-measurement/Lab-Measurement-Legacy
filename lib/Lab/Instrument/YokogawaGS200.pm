@@ -544,7 +544,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::YokogawaGS200 - Yokogawa GS200 DC source
+Lab::Instrument::YokogawaGS200 - Yokogawa GS200 DC source (deprecated)
 
 =head1 VERSION
 

@@ -968,7 +968,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::IPS - Oxford Instruments IPS Magnet Power Supply
+Lab::Instrument::IPS - Oxford Instruments IPS Magnet Power Supply (deprecated)
 
 =head1 VERSION
 

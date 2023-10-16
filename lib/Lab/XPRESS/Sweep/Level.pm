@@ -164,7 +164,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::Level - Level (e.g. Voltage or Current) sweep
+Lab::XPRESS::Sweep::Level - Level (e.g. Voltage or Current) sweep (deprecated)
 
 =head1 VERSION
 

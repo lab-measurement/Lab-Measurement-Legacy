@@ -31,7 +31,7 @@ __END__
 
 =head1 NAME
 
-Lab::GenericSignals - Signal handling
+Lab::GenericSignals - Signal handling (deprecated)
 
 =head1 VERSION
 

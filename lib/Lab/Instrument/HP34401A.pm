@@ -451,7 +451,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::HP34401A - HP/Agilent 34401A digital multimeter
+Lab::Instrument::HP34401A - HP/Agilent 34401A digital multimeter (deprecated)
 
 =head1 VERSION
 

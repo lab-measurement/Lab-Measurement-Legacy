@@ -596,7 +596,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Data::XPRESS_logger - XPRESS logging module
+Lab::XPRESS::Data::XPRESS_logger - XPRESS logging module (deprecated)
 
 =head1 VERSION
 

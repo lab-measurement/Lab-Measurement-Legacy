@@ -40,7 +40,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::OI_ILM210 - Oxford Instruments ILM Intelligent Level Meter
+Lab::Instrument::OI_ILM210 - Oxford Instruments ILM Intelligent Level Meter (deprecated)
 
 =head1 VERSION
 

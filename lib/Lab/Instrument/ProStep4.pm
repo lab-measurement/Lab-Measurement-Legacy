@@ -594,7 +594,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::ProStep4 - ProStep4 step motor
+Lab::Instrument::ProStep4 - ProStep4 step motor (deprecated)
 
 =head1 VERSION
 

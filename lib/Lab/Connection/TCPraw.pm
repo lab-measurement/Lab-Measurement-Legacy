@@ -48,7 +48,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::TCPraw - Raw TCP connection; deprecated, use Socket instead
+Lab::Connection::TCPraw - Raw TCP connection; deprecated, use Socket instead (deprecated)
 
 =head1 VERSION
 

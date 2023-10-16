@@ -312,7 +312,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::Lakeshore224 - Lake Shore 224 temperature monitor
+Lab::Instrument::Lakeshore224 - Lake Shore 224 temperature monitor (deprecated)
 
 =head1 VERSION
 

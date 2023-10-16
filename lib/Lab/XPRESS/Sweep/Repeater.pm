@@ -68,7 +68,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::Repeater - Simple repeater
+Lab::XPRESS::Sweep::Repeater - Simple repeater (deprecated)
 
 =head1 VERSION
 

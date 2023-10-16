@@ -752,7 +752,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::Keithley2000 - Keithley 2000 digital multimeter
+Lab::Instrument::Keithley2000 - Keithley 2000 digital multimeter (deprecated)
 
 =head1 VERSION
 

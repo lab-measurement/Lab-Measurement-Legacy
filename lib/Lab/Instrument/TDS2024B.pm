@@ -5052,7 +5052,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::TDS2024B - Tektronix TDS2024B digital oscilloscope
+Lab::Instrument::TDS2024B - Tektronix TDS2024B digital oscilloscope (deprecated)
 
 =head1 VERSION
 

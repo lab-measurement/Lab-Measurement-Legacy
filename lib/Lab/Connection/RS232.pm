@@ -83,7 +83,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::RS232 - RS232 Connection base class
+Lab::Connection::RS232 - RS232 Connection base class (deprecated)
 
 =head1 VERSION
 

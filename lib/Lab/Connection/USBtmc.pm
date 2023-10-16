@@ -94,7 +94,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::USBtmc - F</dev/usbtmc> Linux USB Test&Measurement kernel driver connection
+Lab::Connection::USBtmc - F</dev/usbtmc> Linux USB Test&Measurement kernel driver connection (deprecated)
 
 =head1 VERSION
 

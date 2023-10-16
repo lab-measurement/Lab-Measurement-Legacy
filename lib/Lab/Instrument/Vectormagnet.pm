@@ -633,7 +633,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::Vectormagnet - ???
+Lab::Instrument::Vectormagnet - ??? (deprecated)
 
 =head1 VERSION
 

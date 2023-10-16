@@ -125,7 +125,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::Mock - ???
+Lab::Connection::Mock - ??? (deprecated)
 
 =head1 VERSION
 

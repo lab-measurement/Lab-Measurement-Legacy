@@ -44,7 +44,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::DEBUG - Connection to the DEBUG bus
+Lab::Connection::DEBUG - Connection to the DEBUG bus (deprecated)
 
 =head1 VERSION
 

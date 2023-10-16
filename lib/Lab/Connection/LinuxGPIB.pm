@@ -97,7 +97,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::LinuxGPIB - LinuxGPIB connection
+Lab::Connection::LinuxGPIB - LinuxGPIB connection (deprecated)
 
 =head1 VERSION
 

@@ -29,7 +29,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::VISA_GPIB::Log - Add logging capability to a VISA_GPIB connection
+Lab::Connection::VISA_GPIB::Log - Add logging capability to a VISA_GPIB connection (deprecated)
 
 =head1 VERSION
 

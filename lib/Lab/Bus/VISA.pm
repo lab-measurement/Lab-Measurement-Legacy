@@ -377,7 +377,7 @@ __END__
 
 =head1 NAME
 
-Lab::Bus::VISA - National Instruments VISA bus
+Lab::Bus::VISA - National Instruments VISA bus (deprecated)
 
 =head1 VERSION
 

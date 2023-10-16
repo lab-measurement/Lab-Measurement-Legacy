@@ -783,7 +783,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::Yokogawa7651 - Yokogawa 7651 DC source
+Lab::Instrument::Yokogawa7651 - Yokogawa 7651 DC source (deprecated)
 
 =head1 VERSION
 

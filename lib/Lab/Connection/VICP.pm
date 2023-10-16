@@ -86,7 +86,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::VICP - VICP ethernet protocol connection
+Lab::Connection::VICP - VICP ethernet protocol connection (deprecated)
 
 =head1 VERSION
 

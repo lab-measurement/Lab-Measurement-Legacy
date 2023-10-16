@@ -289,7 +289,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::Trace - Trace communication with instruments
+Lab::Connection::Trace - Trace communication with instruments (deprecated)
 
 =head1 VERSION
 

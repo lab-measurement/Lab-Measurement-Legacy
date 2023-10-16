@@ -194,7 +194,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::Cryogenic_SMS - Cryogenic SMS magnet power supply
+Lab::Instrument::Cryogenic_SMS - Cryogenic SMS magnet power supply (deprecated)
 
 =head1 VERSION
 

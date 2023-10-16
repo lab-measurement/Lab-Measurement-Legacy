@@ -93,7 +93,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::Power - Signal generator power sweep
+Lab::XPRESS::Sweep::Power - Signal generator power sweep (deprecated)
 
 =head1 VERSION
 

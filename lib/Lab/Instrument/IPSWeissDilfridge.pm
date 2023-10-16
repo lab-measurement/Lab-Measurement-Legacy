@@ -75,7 +75,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::IPSWeissDillFridge - Derived IPS instrument for the AG Weiss dilution refrigerator
+Lab::Instrument::IPSWeissDillFridge - Derived IPS instrument for the AG Weiss dilution refrigerator (deprecated)
 
 =head1 VERSION
 

@@ -72,7 +72,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::LogMethodCall - ???
+Lab::Connection::LogMethodCall - ??? (deprecated)
 
 =head1 VERSION
 

@@ -84,7 +84,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::LogBlock - Sweep add-on for matrix logging
+Lab::XPRESS::Sweep::LogBlock - Sweep add-on for matrix logging (deprecated)
 
 =head1 VERSION
 

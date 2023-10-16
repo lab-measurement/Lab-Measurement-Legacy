@@ -469,7 +469,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::TemperatureControl::TLK43 - Electronic process controller TLKA41/42/43 (SIKA GmbH) with RS485 MODBUS-RTU interface
+Lab::Instrument::TemperatureControl::TLK43 - Electronic process controller TLKA41/42/43 (SIKA GmbH) with RS485 MODBUS-RTU interface (deprecated)
 
 =head1 VERSION
 

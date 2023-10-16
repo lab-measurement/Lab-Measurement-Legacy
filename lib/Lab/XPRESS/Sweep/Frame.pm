@@ -82,7 +82,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::Frame - Frames for nested sweep structures
+Lab::XPRESS::Sweep::Frame - Frames for nested sweep structures (deprecated)
 
 =head1 VERSION
 

@@ -69,7 +69,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::TemperatureControl - Generic temperature control instrument base class
+Lab::Instrument::TemperatureControl - Generic temperature control instrument base class (deprecated)
 
 =head1 VERSION
 

@@ -405,7 +405,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::Temperature - Temperature sweep
+Lab::XPRESS::Sweep::Temperature - Temperature sweep (deprecated)
 
 =head1 VERSION
 

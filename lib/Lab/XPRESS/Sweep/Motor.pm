@@ -124,7 +124,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::Motor - Stepper motor sweep
+Lab::XPRESS::Sweep::Motor - Stepper motor sweep (deprecated)
 
 =head1 VERSION
 

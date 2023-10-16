@@ -642,7 +642,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::WR640 - LeCroy WaveRunner 640 digital oscilloscope
+Lab::Instrument::WR640 - LeCroy WaveRunner 640 digital oscilloscope (deprecated)
 
 =head1 VERSION
 

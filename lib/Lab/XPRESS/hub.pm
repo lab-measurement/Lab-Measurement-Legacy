@@ -188,7 +188,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::hub - The XPRESS main hub
+Lab::XPRESS::hub - The XPRESS main hub (deprecated)
 
 =head1 VERSION
 

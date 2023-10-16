@@ -230,7 +230,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::TemperatureDiode - ?????
+Lab::Instrument::TemperatureDiode - ????? (deprecated)
 
 =head1 VERSION
 

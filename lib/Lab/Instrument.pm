@@ -1317,7 +1317,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument - Instrument base class
+Lab::Instrument - Instrument base class (deprecated)
 
 =head1 VERSION
 

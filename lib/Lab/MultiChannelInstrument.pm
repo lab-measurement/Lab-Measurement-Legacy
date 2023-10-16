@@ -318,7 +318,7 @@ __END__
 
 =head1 NAME
 
-Lab::MultiChannelInstrument - Multi-channel instrument base class
+Lab::MultiChannelInstrument - Multi-channel instrument base class (deprecated)
 
 =head1 VERSION
 

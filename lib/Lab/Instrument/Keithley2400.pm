@@ -1760,7 +1760,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::Keithley2400 - Keithley 2400 SourceMeter
+Lab::Instrument::Keithley2400 - Keithley 2400 SourceMeter (deprecated)
 
 =head1 VERSION
 

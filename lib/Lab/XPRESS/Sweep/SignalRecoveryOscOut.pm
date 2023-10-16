@@ -91,7 +91,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::SignalRecoveryOscOut - Signal recovery lock in oscillator output sweep
+Lab::XPRESS::Sweep::SignalRecoveryOscOut - Signal recovery lock in oscillator output sweep (deprecated)
 
 =head1 VERSION
 

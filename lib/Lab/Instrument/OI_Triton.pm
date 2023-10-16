@@ -194,7 +194,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::OI_Triton - Oxford Instruments Triton dilution refrigerator control
+Lab::Instrument::OI_Triton - Oxford Instruments Triton dilution refrigerator control (deprecated)
 
 =head1 VERSION
 

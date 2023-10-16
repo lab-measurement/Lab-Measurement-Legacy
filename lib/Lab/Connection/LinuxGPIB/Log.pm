@@ -29,7 +29,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::LinuxGPIB::Log - Add logging capability to the LinuxGPIB connection
+Lab::Connection::LinuxGPIB::Log - Add logging capability to the LinuxGPIB connection (deprecated)
 
 =head1 VERSION
 

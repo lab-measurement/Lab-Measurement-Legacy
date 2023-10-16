@@ -148,7 +148,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Utilities - Global utility functions for XPRESS
+Lab::XPRESS::Utilities - Global utility functions for XPRESS (deprecated)
 
 =head1 VERSION
 

@@ -674,7 +674,7 @@ __END__
 
 =head1 NAME
 
-Lab::Bus::VICP - VICP bus
+Lab::Bus::VICP - VICP bus (deprecated)
 
 =head1 VERSION
 

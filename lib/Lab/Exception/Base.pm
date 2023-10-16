@@ -43,7 +43,7 @@ __END__
 
 =head1 NAME
 
-Lab::Exception::Base - Exception base class
+Lab::Exception::Base - Exception base class (deprecated)
 
 =head1 VERSION
 

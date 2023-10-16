@@ -608,7 +608,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Data::XPRESS_DataFile - XPRESS data file module
+Lab::XPRESS::Data::XPRESS_DataFile - XPRESS data file module (deprecated)
 
 =head1 VERSION
 

@@ -41,7 +41,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::Dummy - Dummy sweep
+Lab::XPRESS::Sweep::Dummy - Dummy sweep (deprecated)
 
 =head1 VERSION
 

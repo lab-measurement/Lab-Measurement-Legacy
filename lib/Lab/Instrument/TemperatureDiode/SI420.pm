@@ -85,7 +85,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::TemperatureDiode::SI420 - SI420 (???)
+Lab::Instrument::TemperatureDiode::SI420 - SI420 (???) (deprecated)
 
 =head1 VERSION
 

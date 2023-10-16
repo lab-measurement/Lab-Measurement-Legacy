@@ -264,7 +264,7 @@ __END__
 
 =head1 NAME
 
-Lab::Generic - General function library for the L::M classes
+Lab::Generic - General function library for the L::M classes (deprecated)
 
 =head1 VERSION
 

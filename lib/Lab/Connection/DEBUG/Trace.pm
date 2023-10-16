@@ -29,7 +29,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::DEBUG::Trace - ???
+Lab::Connection::DEBUG::Trace - ??? (deprecated)
 
 =head1 VERSION
 

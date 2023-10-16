@@ -266,7 +266,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::SR830 - Stanford Research SR830 lock-in amplifier
+Lab::Instrument::SR830 - Stanford Research SR830 lock-in amplifier (deprecated)
 
 =head1 VERSION
 

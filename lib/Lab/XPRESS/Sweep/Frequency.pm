@@ -98,7 +98,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::Frequency - Frequency sweep
+Lab::XPRESS::Sweep::Frequency - Frequency sweep (deprecated)
 
 =head1 VERSION
 

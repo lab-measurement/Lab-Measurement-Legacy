@@ -29,7 +29,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::DEBUG::Log - Add logging capability to the DEBUG connection
+Lab::Connection::DEBUG::Log - Add logging capability to the DEBUG connection (deprecated)
 
 =head1 VERSION
 

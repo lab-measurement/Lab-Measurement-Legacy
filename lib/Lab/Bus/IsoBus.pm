@@ -222,7 +222,7 @@ __END__
 
 =head1 NAME
 
-Lab::Bus::IsoBus - Oxford Instruments ISOBUS bus
+Lab::Bus::IsoBus - Oxford Instruments ISOBUS bus (deprecated)
 
 =head1 VERSION
 

@@ -337,7 +337,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection - Connection base class
+Lab::Connection - Connection base class (deprecated)
 
 =head1 VERSION
 

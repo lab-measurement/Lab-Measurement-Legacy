@@ -170,7 +170,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::VISA_RS232 - RS232-type connection which uses NI VISA (L<Lab::VISA>) as backend
+Lab::Connection::VISA_RS232 - RS232-type connection which uses NI VISA (L<Lab::VISA>) as backend (deprecated)
 
 =head1 VERSION
 

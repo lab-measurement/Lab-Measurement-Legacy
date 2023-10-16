@@ -93,7 +93,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep::Amplitude - Amplitude sweep of AC voltage/current
+Lab::XPRESS::Sweep::Amplitude - Amplitude sweep of AC voltage/current (deprecated)
 
 =head1 VERSION
 

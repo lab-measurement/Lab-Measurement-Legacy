@@ -211,7 +211,7 @@ __END__
 
 =head1 NAME
 
-Lab::Instrument::TCD - Temperature control for our Oxford Instruments TLM dilution fridge
+Lab::Instrument::TCD - Temperature control for our Oxford Instruments TLM dilution fridge (deprecated)
 
 =head1 VERSION
 

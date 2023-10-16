@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::VISA - VISA-type connection
+Lab::Connection::VISA - VISA-type connection (deprecated)
 
 =head1 VERSION
 

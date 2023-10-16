@@ -1441,7 +1441,7 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Sweep - Base sweep class
+Lab::XPRESS::Sweep - Base sweep class (deprecated)
 
 =head1 VERSION
 

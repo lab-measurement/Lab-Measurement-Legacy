@@ -52,7 +52,7 @@ __END__
 
 =head1 NAME
 
-Lab::MultiChannelInstrument::DeviceCache - Multi-channel instrument device cache
+Lab::MultiChannelInstrument::DeviceCache - Multi-channel instrument device cache (deprecated)
 
 =head1 VERSION
 

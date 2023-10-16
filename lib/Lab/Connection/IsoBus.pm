@@ -92,7 +92,7 @@ __END__
 
 =head1 NAME
 
-Lab::Connection::IsoBus - Oxford Instruments IsoBus connection
+Lab::Connection::IsoBus - Oxford Instruments IsoBus connection (deprecated)
 
 =head1 VERSION
 

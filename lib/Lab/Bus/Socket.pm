@@ -235,7 +235,7 @@ __END__
 
 =head1 NAME
 
-Lab::Bus::Socket - IP network socket bus
+Lab::Bus::Socket - IP network socket bus (deprecated)
 
 =head1 VERSION
 
