@@ -9,13 +9,16 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Examples::Example2_Gate_IV_scan - XPRESS for DUMMIES - Example 2 - Nested Sweeps
+Lab::XPRESS::Examples::Example2_Gate_IV_scan - XPRESS for DUMMIES - Example 2 - Nested Sweeps (deprecated)
 
 =head1 VERSION
 
 version 3.792
 
 =head1 Abstract
+
+This file belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API;
+its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
 
 This is a simple, but fully functional Lab::Measurment script, which makes use
 of the XPRESS add-on.
@@ -38,7 +41,7 @@ meaning.
 
  #-------- 0. Import Lab::Measurement -------
  
- use Lab::Measurement;
+ use Lab::Measurement::Legacy;
  
  #-------- 1. Initialize Instruments --------
  

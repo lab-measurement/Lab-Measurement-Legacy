@@ -9,13 +9,16 @@ __END__
 
 =head1 NAME
 
-Lab::XPRESS::Examples::Example1_Simple_IV - XPRESS for DUMMIES - Example 1
+Lab::XPRESS::Examples::Example1_Simple_IV - XPRESS for DUMMIES - Example 1 (deprecated)
 
 =head1 VERSION
 
 version 3.792
 
 =head1 Abstract
+
+This file belongs to a deprecated legacy module stack, frozen and not under development anymore. Please port your code to the new API; 
+its documentation can be found on the Lab::Measurement homepage, L<https://www.labmeasurement.de/>.
 
 This is a simple, but fully functional Lab::Measurment script, which makes use
 of the XPRESS add-on.
@@ -46,7 +49,7 @@ simple IV-curve measurement:
 
  #-------- 0. Import Lab::Measurement -------
  
- use Lab::Measurement;
+ use Lab::Measurement::Legacy;
  
  #-------- 1. Initialize Instruments --------
  
