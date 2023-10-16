@@ -1,9 +1,19 @@
 #ABSTRACT: XPRESS for DUMMIES - Example 4
 #PODNAME: Lab::XPRESS::Examples::Example4_3d_scan
 
+__END__
+
 =pod
 
 =encoding utf-8
+
+=head1 NAME
+
+Lab::XPRESS::Examples::Example4_3d_scan - XPRESS for DUMMIES - Example 4
+
+=head1 VERSION
+
+version 3.792
 
 =head1 Abstract
 
@@ -13,16 +23,14 @@ The script will perform a nested sweep: For each value of RF power, AC
 conductance is measured for different values of gate voltage and RF frequency. 
 The data will be written in several 2d data files, labeled by the the RF power
 value.
-    
 
 =head1 Introduction 
 
 In this example, the main novelty is the usage of two nested frames to record a 3-dimensional dataset. 
 
-
  #-------- 0. Import Lab::Measurement -------
  
- use Lab::Measurement::Legacy;
+ use Lab::Measurement;
  use strict;
  
  #-------- 1. Initialize Instruments --------
@@ -200,7 +208,6 @@ In this example, the main novelty is the usage of two nested frames to record a 
  $FRQSRC->power_off();
  
  1;
- 
 
 =head1 The code
 
@@ -252,7 +259,6 @@ In this example, the main novelty is the usage of two nested frames to record a 
     $FRQSRC->enable_external_am();
 
     $FRQSRC->power_on();
-
 
 We initialize two Yokos for bias and gate voltage, the SR830 for the AC Lock-in measurement, an Agilent 3458A multimeter (named HP) and a frequency generator.
 The bias voltage is set immediately after initialization and the frequency generator's output is switched on.
@@ -329,10 +335,9 @@ For sweeping RF power, the according sweep object provides only the step mode at
 	}
 	);
 
-    
 We provide all variables we are interested in to the datafile object. Note that we do NOT have to define a data file for each value of RF power: This is done automatically. The XPRESS module will add a string to the filename of the form _RF_Power=X. 
 We also add live plots for DC current and AC conductivity.
- 
+
 =head2 4. The measurement instructions
 
     #-------- 4. Measurement Instructions -------
@@ -360,7 +365,6 @@ We also add live plots for DC current and AC conductivity.
 	    });
     };
 
-
 The measurement instructions have a standard structure. We successively record all data for a single point in the 3-dimensional parameter space. Note that a little time is saved collecting the gate voltage from the software cache of the instrument via {read_mode => 'cache'}.
 The data is then sent to the LOG routine of the sweep object.
 
@@ -381,14 +385,14 @@ Finally, there comes the magic of XPRESS. We just define the inner frame object 
     $gateframe->add_slave($RF_frequency_sweep);
 
 Looks familiar, does it. The outer frame
-    
+
     my $powerframe = Frame();
     $powerframe->add_master($RF_power_sweep);
     $powerframe->add_slave($gateframe);
 
 contains the power sweep as master and the other (gate vs. frequency) frame is provided as slave. That's it. We do not have to care about the details or count brackets of for-loops.
 Last but not least, start the sweep
-    
+
     $powerframe->start();
 
     $FRQSRC->disable_external_am();
@@ -397,9 +401,14 @@ Last but not least, start the sweep
 
 and switch the frequency generator of once we are done to not heat the sample unneccessarily. Enjoy!
 
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2021 by the Lab::Measurement team; in detail:
+
+  Copyright 2017       Simon Reinhardt
 
 
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
-
-
-
+=cut

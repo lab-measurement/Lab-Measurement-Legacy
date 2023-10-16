@@ -1,9 +1,19 @@
 #ABSTRACT: XPRESS for DUMMIES - Example 1
 #PODNAME: Lab::XPRESS::Examples::Example1_Simple_IV
 
+__END__
+
 =pod
 
 =encoding utf-8
+
+=head1 NAME
+
+Lab::XPRESS::Examples::Example1_Simple_IV - XPRESS for DUMMIES - Example 1
+
+=head1 VERSION
+
+version 3.792
 
 =head1 Abstract
 
@@ -36,7 +46,7 @@ simple IV-curve measurement:
 
  #-------- 0. Import Lab::Measurement -------
  
- use Lab::Measurement::Legacy;
+ use Lab::Measurement;
  
  #-------- 1. Initialize Instruments --------
  
@@ -115,8 +125,6 @@ simple IV-curve measurement:
  $voltage_sweep->start();
  
  1;
- 
-
 
 =head1 Step by step tutorial - How to write an IV-curve measurement
 
@@ -124,7 +132,7 @@ simple IV-curve measurement:
 
 First thing to do in a script: write the following line
 
-	use Lab::Measurement::Legacy;
+	use Lab::Measurement;
 
 This is how you import the Lab::Measurement library. For basic usage, that's typically everything you need. So you're now ready to start...
 
@@ -196,7 +204,6 @@ The data will later be logged in the DataFile, corresponding to the order you ad
 
 There are more parameters, that modify the look and type of the plot. Details can be found in the documentation of L<Lab::XPRESS::Data::XPRESS_DataFile>.
 
-
 =head2 4. The measurement instructions
 
 As the last ingredient, we have to define how the data values per single measurement are generated. This set of instruction has to be wrapped into a subroutine, which will be executed each second while the sweep is sctive. First, let's have a look on the entire block, before discussing it in detail.
@@ -261,11 +268,17 @@ Last but not least, the sweep has to be started:
 Otherwise the script won't do anything. 
 And that's it!
 
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2021 by the Lab::Measurement team; in detail:
+
+  Copyright 2013       Christian Butschkow, Stefan Geissler
+            2014       Christian Butschkow
+            2017       Simon Reinhardt
+            2018       Andreas K. Huettel, Simon Reinhardt
 
 
-
-
-
-
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut

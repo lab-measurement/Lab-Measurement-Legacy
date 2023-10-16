@@ -1,10 +1,19 @@
 #ABSTRACT: XPRESS for DUMMIES - Example 3
 #PODNAME: Lab::XPRESS::Examples::Example3_2samples_2files
 
+__END__
+
 =pod
 
 =encoding utf-8
 
+=head1 NAME
+
+Lab::XPRESS::Examples::Example3_2samples_2files - XPRESS for DUMMIES - Example 3
+
+=head1 VERSION
+
+version 3.792
 
 =head1 Abstract
 
@@ -13,8 +22,6 @@ of the XPRESS add-on.
 The script will perform a magnetic field sweep and backsweep, while measuring
 the DC resistance of two samples. 
 The data will be written in two seperate files, one for each sample. 
-	
-
 
 =head1 Introduction 
 
@@ -24,10 +31,9 @@ Those two files are populated with data, during the same sweep. Besides that,
 we introduce the magnet type sweep, and a few features, related with the
 configuration of sweeps.
 
-
  #-------- 0. Import Lab::Measurement -------
  
- use Lab::Measurement::Legacy;
+ use Lab::Measurement;
  
  #-------- 1. Initialize Instruments --------
  
@@ -178,7 +184,6 @@ configuration of sweeps.
  $magnet_sweep->start();
  
  1;
- 
 
 =head1 The code
 
@@ -186,7 +191,7 @@ configuration of sweeps.
 
 	#-------- 0. Import Lab::Measurement -------
 
-	use Lab::Measurement::Legacy;
+	use Lab::Measurement;
 	
 	#-------- 1. Initialize Instruments --------
 	
@@ -230,7 +235,6 @@ Here we use IPSWeiss1, which is an individual child-class of Lab::Instrument::IP
 the initialization has to be slightly different. Under the term IsoBus we understand, that multiple instruments communicate via the same 'base_connection',
 but are still individualy accessible using the isobus_address. In order to provide this base_connection, we request directly a connection of type 'VISA_GPIB' with adsress 24.
 
-
 =head2 Sweep Objects
 
 	#-------- 3. Define the Sweeps -------------
@@ -252,7 +256,7 @@ you can put as many steps into the points array as you want, and even change the
 Since we define the parameter 'backsweep' to be 1, the sweep will automatically process the sequence in reverted direction, after finishing the original sweep.
 
 =head2 The DataFileS
-	
+
 	#-------- 3. Create a DataFile -------------
 
 	my $DataFile1 = DataFile('MagnFieldSweep_sample1.dat');
@@ -281,7 +285,6 @@ Since we define the parameter 'backsweep' to be 1, the sweep will automatically 
 		'y-axis' => 'Resistance'
 		});
 
-	
 Just defining two DataFiles, instead of only one. Really nothing interesting here.
 
 =head2 4. The measurement instructions
@@ -337,22 +340,25 @@ It's not hard to gues how to proceed. Of course we have to connect DataFiles wit
 	$DataFile2->add_measurement($my_measurement2);
 
 And then add the two DataFiles to the sweep, since both should be called each time $magnet_sweep decides it's time for a new measurement point.
-	
+
 	$magnet_sweep->add_DataFile($DataFile1);
 	$magnet_sweep->add_DataFile($DataFile2);
 
 Last but not least, start the sweep:
-	
+
 	$magnet_sweep->start();
 
 Otherwise the script won't do anything. 
 And that's it!
 
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2021 by the Lab::Measurement team; in detail:
+
+  Copyright 2017       Simon Reinhardt
 
 
-
-
-
-
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
