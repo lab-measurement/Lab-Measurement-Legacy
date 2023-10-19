@@ -1,6 +1,6 @@
 package Lab::Data::Analysis::WaveRunner;
 #ABSTRACT: Analysis routine for LeCroy WaveRunner/etc. scopes
-
+$Lab::Data::Analysis::WaveRunner::VERSION = '3.881';
 use v5.20;
 
 use strict;
@@ -518,16 +518,6 @@ our $DEFAULT_TEMPLATE = [
     ]
 ];
 
-=head1 SUBROUTINES/METHODS
-
-=head2 new
-
-my $a = Lab::Data::Analysis::WaveRunner->new(stream=>$stream);
-
-create a new WaveRunner analysis object; for use by Lab::Data::Analysis
-code
-
-=cut
 
 sub new {
     my $proto = shift;
@@ -546,63 +536,6 @@ sub new {
     return $self;
 }
 
-=head2 Analyze
-
-my $event = $a->Analyze($event[, optionshash]);
-
-Do  analysis on an event (passed by hashref); the
-results of the analysis are stored in the hashref, and the
-hashref is returned.
-
-If there is an error, "undef" is returned.
-
-The analysis results can be found in 
-
-$event->{CHAN}->{$channel}->{
-
-	    CHAN => channel name,
-
-	    X => [ ... x values ... typically times ],
-
-	    Yunit => unit for Y scale,
-
-	    Xunit => unit for X scale,
-
-	    ID => ID string describing waveform,
-
-            START => $jstart        ... $X->[$jstart] is first sample
- 
-            STOP => $jstop          ... $X->[$jstop] is last sample
-
-            two options:
-
-           Y => [ ... y values... typically voltages ],
-
-            or 
-
-           YMIN => [ ... min y values ...], YMAX=> [... max y values..],
- 
-The YMIN,YMAX arrays are returned for 'envelope' type waveforms.
-      
-
-To get the usual time/voltage pairs:
-
-      for ($j = $ev->{CHAN}->{CH1}->{START};
- 
-        $j <= $ev->{CHAN}->{CH1}->{STOP}; $j++) {
-
-        $t = $ev->{CHAN}->{CH1}->X->[$j];
-
-        $v = $ev->{CHAN}->{CH1}->Y->[$j];
-
-      }
-
-Analysis options:
-
-    dropraw => [def: 0]    ... drop the raw analysis intermediate results
-    interpolate => [def: 1] ... create a Yfunc interpolation function
-
-=cut
 
 sub Analyze {
     my $self  = shift;
@@ -1276,3 +1209,95 @@ sub _ParseHeader {
 }
 
 1;    # End of Lab::Data::Analysis::TekTDS
+
+__END__
+
+=pod
+
+=encoding UTF-8
+
+=head1 NAME
+
+Lab::Data::Analysis::WaveRunner - Analysis routine for LeCroy WaveRunner/etc. scopes
+
+=head1 VERSION
+
+version 3.881
+
+=head1 SUBROUTINES/METHODS
+
+=head2 new
+
+my $a = Lab::Data::Analysis::WaveRunner->new(stream=>$stream);
+
+create a new WaveRunner analysis object; for use by Lab::Data::Analysis
+code
+
+=head2 Analyze
+
+my $event = $a->Analyze($event[, optionshash]);
+
+Do  analysis on an event (passed by hashref); the
+results of the analysis are stored in the hashref, and the
+hashref is returned.
+
+If there is an error, "undef" is returned.
+
+The analysis results can be found in 
+
+$event->{CHAN}->{$channel}->{
+
+	    CHAN => channel name,
+
+	    X => [ ... x values ... typically times ],
+
+	    Yunit => unit for Y scale,
+
+	    Xunit => unit for X scale,
+
+	    ID => ID string describing waveform,
+
+            START => $jstart        ... $X->[$jstart] is first sample
+ 
+            STOP => $jstop          ... $X->[$jstop] is last sample
+
+            two options:
+
+           Y => [ ... y values... typically voltages ],
+
+            or 
+
+           YMIN => [ ... min y values ...], YMAX=> [... max y values..],
+
+The YMIN,YMAX arrays are returned for 'envelope' type waveforms.
+
+To get the usual time/voltage pairs:
+
+      for ($j = $ev->{CHAN}->{CH1}->{START};
+ 
+        $j <= $ev->{CHAN}->{CH1}->{STOP}; $j++) {
+
+        $t = $ev->{CHAN}->{CH1}->X->[$j];
+
+        $v = $ev->{CHAN}->{CH1}->Y->[$j];
+
+      }
+
+Analysis options:
+
+    dropraw => [def: 0]    ... drop the raw analysis intermediate results
+    interpolate => [def: 1] ... create a Yfunc interpolation function
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2023 by the Lab::Measurement team; in detail:
+
+  Copyright 2016       Charles Lane
+            2017       Andreas K. Huettel
+            2020       Andreas K. Huettel
+
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
